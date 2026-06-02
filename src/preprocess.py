@@ -22,9 +22,8 @@ def preprocess_data(df):
     )
 
     # Fill missing values
-    df["TotalCharges"].fillna(
-        df["TotalCharges"].median(),
-        inplace=True
+    df["TotalCharges"] = df["TotalCharges"].fillna(
+    df["TotalCharges"].median()
     )
 
     # Encode categorical columns
