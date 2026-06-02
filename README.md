@@ -192,7 +192,3 @@ uvicorn app.main:app --reload
 ```
 
 This executes the complete pipeline from data preprocessing to prediction serving.
-
-## Author
-
-Anurag
