@@ -1,0 +1,17 @@
+import pandas as pd
+
+
+def load_data(path):
+    return pd.read_csv(path)
+
+
+def preprocess_data(df):
+    return df
+
+
+def save_data(df, path):
+    df.to_csv(path, index=False)
+
+
+if __name__ == "__main__":
+    pass
